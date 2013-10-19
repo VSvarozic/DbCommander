@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{6DAAA1D3-32C4-4355-B617-D09A37679BED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{90509118-9F21-4A51-9A4C-AE598B66F3D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbCommander.UI.WebUI", "DbCommander.UI.WebUI\DbCommander.UI.WebUI.csproj", "{815A9C5D-FABC-457C-9102-D64E1B72F7CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{857E1A6F-4416-48CD-9FB5-1FEA4935F464}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CDB8EC6F-D542-4A3E-9755-AE60FE787737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbCommander.Domain.Model", "DbCommander.Domain.Model\DbCommander.Domain.Model.csproj", "{AE5E9F7E-7D8D-4045-A3EE-A0FAF91454C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbCommander.Domain.Data.Mongo", "DbCommander.Domain.Data.Mongo\DbCommander.Domain.Data.Mongo.csproj", "{661C4CBE-2A91-4D84-A962-9B664521B3BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{815A9C5D-FABC-457C-9102-D64E1B72F7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815A9C5D-FABC-457C-9102-D64E1B72F7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815A9C5D-FABC-457C-9102-D64E1B72F7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815A9C5D-FABC-457C-9102-D64E1B72F7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5E9F7E-7D8D-4045-A3EE-A0FAF91454C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5E9F7E-7D8D-4045-A3EE-A0FAF91454C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5E9F7E-7D8D-4045-A3EE-A0FAF91454C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5E9F7E-7D8D-4045-A3EE-A0FAF91454C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661C4CBE-2A91-4D84-A962-9B664521B3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661C4CBE-2A91-4D84-A962-9B664521B3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661C4CBE-2A91-4D84-A962-9B664521B3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661C4CBE-2A91-4D84-A962-9B664521B3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{815A9C5D-FABC-457C-9102-D64E1B72F7CC} = {6DAAA1D3-32C4-4355-B617-D09A37679BED}
+		{AE5E9F7E-7D8D-4045-A3EE-A0FAF91454C2} = {CDB8EC6F-D542-4A3E-9755-AE60FE787737}
+		{661C4CBE-2A91-4D84-A962-9B664521B3BA} = {CDB8EC6F-D542-4A3E-9755-AE60FE787737}
+	EndGlobalSection
+EndGlobal
